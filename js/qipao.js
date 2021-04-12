@@ -45,3 +45,15 @@ function qipao() {
 
 // 调用气泡方法
 qipao();
+
+var mypostNode = document.querySelector('#post');
+
+mypostNode.addEventListener('click', function(){
+    $.ajax({
+        type: 'GET',
+        url: 'https://sc.ftqq.com/SCU169291T5b6fa3f5414e50e7b1c33a4eee8bde1060746f8351925.send?text=twikoo评论&desp=' + $('textarea').val(),
+        dataType:'jsonp',
+        async:true,
+        timeout:'5000'
+    })
+})
