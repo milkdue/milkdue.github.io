@@ -46,14 +46,34 @@ function qipao() {
 // 调用气泡方法
 qipao();
 
-var mypostNode = document.querySelector('#post');
 
-mypostNode.addEventListener('click', function(){
-    $.ajax({
-        type: 'GET',
-        url: 'https://sc.ftqq.com/SCU169291T5b6fa3f5414e50e7b1c33a4eee8bde1060746f8351925.send?text=twikoo评论&desp=' + $('textarea').val(),
-        dataType:'jsonp',
-        async:true,
-        timeout:'5000'
-    })
-})
+
+
+
+window.onload = function(){
+    // 这里只对第一个评论框作通知处理
+    function remind(){
+        if($('div.tk-submit button.tk-send').length !== 0){
+            $(window).off('scroll', remind);
+            $('div.tk-submit button.tk-send')[0].addEventListener('click', function(){
+                $.ajax({
+                    type: 'GET',
+                    url: 'https://sc.ftqq.com/SCU169291T5b6fa3f5414e50e7b1c33a4eee8bde1060746f8351925.send?text=来自 ' + this.parentElement.parentElement.querySelector('input[type=email]').value + '评论&desp=' + $('textarea.el-textarea__inner').val(),
+                    dataType:'jsonp',
+                    async:true,
+                    timeout:'5000'
+                })
+            })
+        }
+    }
+
+    if($('#post-comment').length !== 0){
+        $('.switch-btn')[0].addEventListener('click', function(){
+            if($(this).hasClass('move')){
+                $(window).on('scroll', remind);
+            }
+        })
+    }
+}
+
+
