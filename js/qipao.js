@@ -45,11 +45,6 @@ function qipao() {
 
 // 调用气泡方法
 qipao();
-
-
-
-
-
 window.onload = function(){
     // 这里只对第一个评论框作通知处理
     function remind(){
