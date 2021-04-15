@@ -926,7 +926,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="img/scope.png" alt="image"></p>
+<p><img src="/img/loading.gif" data-original="img/scope.png" alt="image"></p>
 <h2 id="27-Web-SQL数据库"><a href="#27-Web-SQL数据库" class="headerlink" title="27. Web SQL数据库"></a>27. Web SQL数据库</h2><h3 id="27-1-核心方法"><a href="#27-1-核心方法" class="headerlink" title="27.1. 核心方法"></a>27.1. 核心方法</h3><ol>
 <li>openDatabase(); // 打开一个数据库，如果没有新建一个</li>
 <li>transaction(); // 这个方法让我们能够控制一个事务，以及基于这种情况执行提交或者回滚</li>
@@ -1090,4 +1090,10 @@ if ('Valine' === 'Valine' || !true) {
         }
     </script>
     <style>#github_container{min-height:280px}@media screen and (max-width:650px) {#github_container{background-image:;min-height:0px}}</style>
-    <style></style><!-- hexo injector body_end end --></body></html>
+    <style></style><!-- hexo injector body_end end --><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>
