@@ -46,4 +46,22 @@ function qipao() {
 // 调用气泡方法
 qipao();
 
+window.onload = function(){
+    var category = document.getElementById("categoryBar");
+    if(category){
+        window.onresize = function(){
+            var width = document.documentElement.clientWidth;
+            
+            if(width > 970){
+                category.style.display = "block";
+            }
+    
+            if(width <= 970){
+                category.style.display = "none";
+            }
+        }
+    }
+    
+}
+
 
