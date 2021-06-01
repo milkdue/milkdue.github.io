@@ -210,6 +210,7 @@ figure.gallery-group .gallery-group-name {
 }
 .fontawesomeIcon,
 hr:before,
+span.categoryBar-list-count::before,
 #article-container h1:before,
 #article-container h2:before,
 #article-container h3:before,
@@ -1852,6 +1853,33 @@ blockquote footer cite:before {
 #article-container figure.highlight .highlight-tools .code-lang {
   left: 3.8rem !important;
 }
+#article-container .code-expand-btn {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  background: var(--hlexpand-bg);
+  text-align: center;
+  font-size: var(--global-font-size);
+  cursor: pointer;
+}
+#article-container .code-expand-btn i {
+  padding: 0.3rem 0;
+  color: var(--hlnumber-color);
+  -webkit-animation: code-expand-key 1.2s infinite;
+  -moz-animation: code-expand-key 1.2s infinite;
+  -o-animation: code-expand-key 1.2s infinite;
+  -ms-animation: code-expand-key 1.2s infinite;
+  animation: code-expand-key 1.2s infinite;
+}
+#article-container .code-expand-btn.expand-done {
+  display: none !important;
+}
+#article-container .code-expand-btn:not(.expand-done) ~ table,
+#article-container .code-expand-btn:not(.expand-done) ~ pre {
+  overflow: hidden;
+  height: 200px;
+}
 @-moz-keyframes code-expand-key {
   0% {
     opacity: 0.6;
@@ -3383,6 +3411,170 @@ blockquote footer cite:before {
     -o-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
+  }
+}
+.cbp_tmlabel:after {
+  border-right-color: transparent !important;
+}
+#artitalk_main .cbp_tmtimeline > li .cbp_tmlabel {
+  display: inline-block !important;
+  margin: 0 0 30px 0px !important;
+}
+#artitalk_main .cbp_tmtimeline > li .cbp_tmlabel:after {
+  border-right-color: transparent !important;
+}
+.artitalk_avatar {
+  width: 40px;
+  height: 40px;
+}
+span.shuoshuo_author_img {
+  display: none;
+}
+.power {
+  display: none;
+  padding: 10px !important;
+  text-align: left !important;
+}
+#switchUser,
+#pubShuo,
+#pubComment,
+#uploadSource {
+  padding-right: 10px !important;
+}
+#uploadSource .icon {
+  width: 1.2em !important;
+  height: 1.2em !important;
+  vertical-align: 0 !important;
+}
+#categoryBar {
+  width: 100% !important;
+}
+ul.categoryBar-list {
+  margin: 5px 5px 0 5px !important;
+  padding: 0 !important;
+}
+li.categoryBar-list-item {
+  font-weight: bold;
+  display: inline-block;
+  height: 180px !important;
+  margin: 5px 0.5% 0 0.5% !important;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -moz-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -o-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -ms-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  border-radius: 10px;
+  padding: 25px 0 25px 25px !important;
+  -webkit-box-shadow: rgba(50,50,50,0.3) 50px 50px 50px 50px inset;
+  box-shadow: rgba(50,50,50,0.3) 50px 50px 50px 50px inset;
+  overflow: hidden;
+  -webkit-background-size: 115% !important;
+  -moz-background-size: 115% !important;
+  background-size: 115% !important;
+  background-position: center !important;
+}
+li.categoryBar-list-item:hover {
+  -webkit-background-size: 125% !important;
+  -moz-background-size: 125% !important;
+  background-size: 125% !important;
+  -webkit-box-shadow: inset 500px 50px 50px 50px rgba(50,50,50,0.6);
+  box-shadow: inset 500px 50px 50px 50px rgba(50,50,50,0.6);
+}
+li.categoryBar-list-item:hover span.categoryBar-list-count::after {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -o-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+}
+a.categoryBar-list-link {
+  color: #fff !important;
+  font-size: 20px !important;
+}
+a.categoryBar-list-link::before {
+  content: '|' !important;
+  color: #fff !important;
+  font-size: 20px !important;
+}
+a.categoryBar-list-link:after {
+  content: '';
+  position: relative;
+  width: 0;
+  bottom: 0;
+  display: block;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+a.categoryBar-list-link:hover:after {
+  width: 90%;
+  left: 1%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+span.categoryBar-list-count {
+  display: block !important;
+  color: #fff !important;
+  font-size: 20px !important;
+}
+span.categoryBar-list-count::before {
+  content: '\f02d' !important;
+  padding-right: 15px !important;
+}
+span.categoryBar-list-count::after {
+  padding: 5px;
+  display: block !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  position: relative;
+  right: -100%;
+}
+li.categoryBar-list-item:nth-child(1) {
+  background: url('https://cdn.jsdelivr.net/gh/milkdue/cdn@1.7/img/girl2.jpg');
+}
+li.categoryBar-list-item:nth-child(2) {
+  background: url('https://cdn.jsdelivr.net/gh/milkdue/cdn@1.8/img/three.jpg');
+}
+li.categoryBar-list-item:nth-child(3) {
+  background: url('https://cdn.jsdelivr.net/gh/milkdue/cdn@1.8/img/four.jpg');
+}
+li.categoryBar-list-item:nth-child(1)>span::after {
+  content: '作品集' !important;
+}
+li.categoryBar-list-item:nth-child(2)>span::after {
+  content: '听力练习' !important;
+}
+li.categoryBar-list-item:nth-child(3)>span::after {
+  content: '学习&教程' !important;
+}
+li.categoryBar-list-item {
+  width: 32.3% !important;
+}
+@media screen and (max-width: 650px) {
+  li.categoryBar-list-item {
+    width: 48% !important;
+    height: 150px !important;
+    margin: 5px 1% 0 1% !important;
+  }
+}
+.categoryBar-list {
+  max-height: 380px;
+  overflow: auto;
+}
+.categoryBar-list::-webkit-scrollbar {
+  width: 0 !important;
+}
+@media screen and (max-width: 650px) {
+  .categoryBar-list {
+    max-height: 320px;
   }
 }
 #post-comment .comment-head {
