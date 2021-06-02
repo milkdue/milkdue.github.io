@@ -28,3 +28,9 @@ span#subtitle {
 a#site-name {
     font-family:arzhu!important
 }
+
+@media screen and (max-width: 970px) {
+    #categoryBar {
+        display: none;
+    }
+}
