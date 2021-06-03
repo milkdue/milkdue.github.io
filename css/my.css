@@ -6,6 +6,8 @@ a, img {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;
 }
 
+@import url(//at.alicdn.com/t/font_2588584_jxulve957ga.css);
+
 #article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
     -webkit-animation: avatar_turn_around 1s linear infinite;
     -moz-animation: avatar_turn_around 1s linear infinite;
@@ -33,4 +35,14 @@ a#site-name {
     #categoryBar {
         display: none;
     }
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+/* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;
+/* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
