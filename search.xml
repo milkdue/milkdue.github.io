@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>vercel托管node.js的api服务</title>
+      <link href="5650e2f5/"/>
+      <url>5650e2f5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vercel"><a href="#vercel" class="headerlink" title="vercel"></a>vercel</h2><blockquote><p>vercel提供免费的网站托管服务，类似于<code>github page</code>，但它远比<code>page</code>更加强大，速度也快很多。同时vercel支持部署serverless接口，支持py、node等</p></blockquote><h2 id="托管服务"><a href="#托管服务" class="headerlink" title="托管服务"></a>托管服务</h2><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">github托管服务</button></li><li class="tab"><button type="button" data-href="#test4-2">vercel cli托管服务</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="timeline"><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li><code>npm init</code>初始化一个工程</li><li>创建远程仓库之后<code>clone</code>下来</li><li>创建api目录</li><li>在api目录中创建index.js</li><li>代码推入远程仓库</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> data = &#123;<span class="attr">number</span>: <span class="number">1</span>, <span class="attr">name</span>: req.query.name || <span class="string">&#x27;peiqi&#x27;</span>&#125;;</span><br><span class="line">    res.json(data);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li>登录<a href="https://vercel.com/">vercel</a>官网</li><li>授权github登入vercel</li><li><code>new project</code></li><li>导入github中对应的仓库</li><li>deploy部署</li></ol></div></div><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li>首页visit(会出现404)</li><li>在浏览器地址栏追加/api?name=suxi</li></ol></div></div><div class="timenode"><div class="meta"><p></p></div><div class="body"><details ><summary> 避免404 </summary>              <div class='content'>              <ol><li>根目录添加vercel.json的配置</li><li>根目录添加index.html</li></ol><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;routes&quot;</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">&quot;handle&quot;</span>: <span class="string">&quot;filesystem&quot;</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">&quot;src&quot;</span>: <span class="string">&quot;/(.*)&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;status&quot;</span>: <span class="number">404</span>,</span><br><span class="line">            <span class="attr">&quot;dest&quot;</span>: <span class="string">&quot;/index.html&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>              </div>            </details></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><div class="timeline"><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li><code>npm init</code>初始化一个工程</li><li>全局安装vercel <code>npm i vercel -g</code></li><li>登录vercel <code>vercel login</code> 或 <code>vc login</code></li><li>授权登录完毕后输入 <code>vercel</code> 初始化vercel项目</li><li>添加vercel.json配置和404页面</li><li>添加api目录并定义index.js</li></ol></div></div><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li><code>vercel</code> 或 <code>vc</code> 命令本地预览接口</li><li><code>vercel --prod</code> 或 <code>vc --prod</code> 命令部署到远程vercel中</li></ol></div></div><div class="timenode"><div class="meta"><p></p></div><div class="body"><ol><li>访问预览</li><li>在浏览器地址栏追加/api?name=suxi</li></ol></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="node配合ts"><a href="#node配合ts" class="headerlink" title="node配合ts"></a>node配合ts</h2><div class="tip animated"><p>推荐使用ts托管api服务</p></div><ol><li><p>全局安装typescript</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g typescript</span><br></pre></td></tr></table></figure></li><li><p>安装其他依赖</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm i @vercel/node -D</span><br><span class="line">npm i babel-register -D</span><br><span class="line">npm i babel-plugin-transform-es2015-modules-commonjs -D</span><br></pre></td></tr></table></figure></li><li><p>根目录新建typescript的配置文件tsconfig.json</p> <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;compilerOptions&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;target&quot;</span>: <span class="string">&quot;es6&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;module&quot;</span>: <span class="string">&quot;commonjs&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;emitDecoratorMetadata&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;experimentalDecorators&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;sourceMap&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;noEmitHelpers&quot;</span>: <span class="literal">false</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;exclude&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;node_modules&quot;</span>,</span><br><span class="line">        <span class="string">&quot;typings/main&quot;</span>,</span><br><span class="line">        <span class="string">&quot;typings/main.d.ts&quot;</span>,</span><br><span class="line">        <span class="string">&quot;typings/browser&quot;</span>,</span><br><span class="line">        <span class="string">&quot;typings/browser.d.ts&quot;</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">&quot;compileOnSave&quot;</span>: <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>新建<code>.env</code>文件设置时区</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TZ&#x3D;&#39;asia&#x2F;beijing&#39;</span><br></pre></td></tr></table></figure></li><li><p>api目录中添加index.ts</p> <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="keyword">async</span> (req: <span class="built_in">any</span>, <span class="attr">res</span>: <span class="built_in">any</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">let</span> data = &#123;<span class="attr">number</span>: <span class="number">1</span>, <span class="attr">name</span>: req.query.name || <span class="string">&#x27;suxi&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line">    res.status(<span class="number">200</span>).json(data);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>预览访问</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习&amp;教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vercel </tag>
+            
+            <tag> node </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bufferfly主题的一些美化</title>
       <link href="bf0e4745/"/>
       <url>bf0e4745/</url>
@@ -47,9 +74,9 @@
       
         <tags>
             
-            <tag> npm </tag>
-            
             <tag> node </tag>
+            
+            <tag> npm </tag>
             
         </tags>
       
@@ -112,7 +139,7 @@
     
     
     <entry>
-      <title>Github-jsDelivr搭建自己的免费CDN</title>
+      <title>github-jsdelivr搭建自己的免费cdn</title>
       <link href="c7f33302/"/>
       <url>c7f33302/</url>
       
