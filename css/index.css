@@ -10303,6 +10303,39 @@ div.videos[col='4'] iframe {
 [data-theme="dark"] video {
   filter: brightness(0.7);
 }
+.nota {
+  color: #99a9bf;
+  text-decoration: none;
+  word-wrap: break-word;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow-wrap: break-word;
+}
+.nota:hover {
+  color: #49b1f5;
+}
+span.nota:hover:before {
+  position: fixed;
+  width: fit-content;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 10%;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 100;
+  content: attr(data-nota);
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  background-color: rgba(73,177,245,0.9);
+}
+[data-theme=dark] span.nota:hover:before {
+  background-color: rgba(18,18,18,0.8);
+}
 .note {
   position: relative;
   margin: 0 0 1rem;
