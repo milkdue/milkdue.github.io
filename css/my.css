@@ -50,6 +50,14 @@ svg.icon {
      overflow: hidden;
 }
 
+.card-widget,div#post{
+    background: rgba(255,255,255,.9) !important;
+}
+
+.history_slide{
+    background: none !important;
+}
+
 /* 原来是custome.css 现合并为一个文件 */
 
 /* 页脚透明 */
