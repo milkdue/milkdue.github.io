@@ -31,6 +31,10 @@ a#site-name {
     font-family:arzhu!important
 }
 
+.author-info__name,.author-info__description,#card-info-btn,.card-info-data-item{
+    font-family:arzhu!important
+}
+
 @media screen and (max-width: 970px) {
     #categoryBar {
         display: none;
