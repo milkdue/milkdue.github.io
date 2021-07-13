@@ -83,3 +83,9 @@ svg.icon {
 .card-info-avatar:hover {
     background: url(https://cdn.jsdelivr.net/gh/milkdue/milkdueRepo@master/img/20200530181856.7ip3ho3z0y40.gif);
 }
+
+.live3d{
+    z-index: 98!important;
+    width: 500px !important;
+    height: 437.5px!important;
+}
