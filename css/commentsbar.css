@@ -1,9 +1,11 @@
+
+/* 之前信封的邮件 */
 /* 滚动条隐藏 */
 ::-webkit-scrollbar {
     display: none;
   }
   /* 禁用图片点击,butterfly渲染后会给图片套上fancybox，点开后会造成信笺偏移*/
-  .formmain{
+  .formmain-keyiqingxin{
      pointer-events: none !important;
   }
   /* top-img隐藏 */
@@ -77,13 +79,13 @@
     margin: 20px auto 0;
   }
   
-  .headerimg {
+  .headerimg-keyiqingxin {
     width: 100%;
     overflow: hidden;
     pointer-events: none;
   }
   
-  .formmain {
+  .formmain-keyiqingxin {
     background: white;
     width: 95%;
     max-width: 800px;
@@ -100,7 +102,7 @@
     color: rgb(246, 214, 175);
   }
   
-  .comments {
+  .comments-keyiqingxin {
     border-bottom: #ddd 1px solid;
     border-left: #ddd 1px solid;
     padding-bottom: 20px;
@@ -114,29 +116,29 @@
     font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
   }
   
-  .bottomcontent {
+  .bottomcontent-keyiqingxin {
     text-align: center;
     margin-top: 40px;
   }
   
-  .bottomimg {
+  .bottomimg-keyiqingxin {
     width: 100%;
     margin: 5px auto 5px auto;
     display: block;
     pointer-events: none;
   }
   
-  .bottomhr {
+  .bottomhr-keyiqingxin {
     font-size: 12px;
     text-align: center;
     color: #999;
   }
   /* 夜间模式 */
   [data-theme='dark']
-    .formmain {
+    .formmain-keyiqingxin {
       background: rgb(50, 50, 50);
     }
   [data-theme='dark']
-    .comments {
+    .comments-keyiqingxin {
       background: rgba(90, 90, 90, 0.8)
     }
