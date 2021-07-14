@@ -89,3 +89,12 @@ svg.icon {
     width: 500px !important;
     height: 437.5px!important;
 }
+
+@media screen and (max-width: 970px) {
+    #live2d {
+        display: none;
+    }
+    #live3d {
+        display: none;
+    }
+}
