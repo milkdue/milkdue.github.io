@@ -1,0 +1,1 @@
+if("/"!==location.pathname){var categoryBar=document.getElementById("categoryBar"),recent=categoryBar.parentNode,parent=recent.parentNode;parent.removeChild(recent)}
