@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.keyiqingxin.cn/92aca09d/</loc>
+    
+    <lastmod>2021-10-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.keyiqingxin.cn/sponsor/index.html</loc>
     
     <lastmod>2021-09-18</lastmod>
@@ -179,7 +186,7 @@
 
   <url>
     <loc>https://www.keyiqingxin.cn/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -187,70 +194,77 @@
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/hexo/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/butterfly/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/git/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.keyiqingxin.cn/tags/javascript/</loc>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/vercel/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/node/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/html/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/css/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/npm/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/vue2/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -259,21 +273,21 @@
   
   <url>
     <loc>https://www.keyiqingxin.cn/categories/%E5%AD%A6%E4%B9%A0-%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/categories/%E5%90%AC%E5%8A%9B%E7%BB%83%E4%B9%A0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.keyiqingxin.cn/categories/%E4%BD%9C%E5%93%81%E9%9B%86/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
