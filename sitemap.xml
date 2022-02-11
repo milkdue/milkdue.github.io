@@ -221,20 +221,6 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/html/</loc>
-    <lastmod>2022-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.keyiqingxin.cn/tags/css/</loc>
-    <lastmod>2022-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.keyiqingxin.cn/tags/vercel/</loc>
     <lastmod>2022-02-11</lastmod>
     <changefreq>daily</changefreq>
@@ -249,7 +235,14 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
+    <loc>https://www.keyiqingxin.cn/tags/html/</loc>
+    <lastmod>2022-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.keyiqingxin.cn/tags/css/</loc>
     <lastmod>2022-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -257,6 +250,13 @@
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/npm/</loc>
+    <lastmod>2022-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
     <lastmod>2022-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
