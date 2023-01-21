@@ -270,6 +270,13 @@
   </url>
   
   <url>
+    <loc>https://www.keyiqingxin.cn/tags/c/</loc>
+    <lastmod>2023-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.keyiqingxin.cn/tags/html/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -278,13 +285,6 @@
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/css/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.keyiqingxin.cn/tags/c/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
