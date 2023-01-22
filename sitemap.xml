@@ -242,14 +242,7 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/react/</loc>
-    <lastmod>2023-01-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.keyiqingxin.cn/tags/rn/</loc>
+    <loc>https://www.keyiqingxin.cn/tags/javascript/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -270,7 +263,14 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/javascript/</loc>
+    <loc>https://www.keyiqingxin.cn/tags/react/</loc>
+    <lastmod>2023-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.keyiqingxin.cn/tags/rn/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -291,13 +291,6 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/npm/</loc>
-    <lastmod>2023-01-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.keyiqingxin.cn/tags/c/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>daily</changefreq>
@@ -312,7 +305,7 @@
   </url>
   
   <url>
-    <loc>https://www.keyiqingxin.cn/tags/%E7%88%AC%E8%99%AB/</loc>
+    <loc>https://www.keyiqingxin.cn/tags/npm/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -320,6 +313,13 @@
   
   <url>
     <loc>https://www.keyiqingxin.cn/tags/vue2/</loc>
+    <lastmod>2023-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.keyiqingxin.cn/tags/%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
