@@ -4,12 +4,43 @@
   
     
     <entry>
+      <title>typescript学习笔记</title>
+      <link href="9f47fabe/"/>
+      <url>9f47fabe/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本类型">基本类型</h2><ol><li><code>typescript</code> 的基本数据类型包括 布尔类型、数值类型、字符串类型、数组类型、元组类型、枚举类型</li></ol><h3 id="布尔值">布尔值</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> bool: <span class="built_in">boolean</span>;</span><br><span class="line"></span><br><span class="line">bool = <span class="literal">true</span>;</span><br><span class="line">bool = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> bool1: <span class="built_in">boolean</span> = <span class="literal">false</span>;</span><br></pre></td></tr></table></figure><h3 id="数值">数值</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> num: <span class="built_in">number</span> = <span class="number">0b11111111</span>;</span><br><span class="line">num = <span class="number">0o173</span>; <span class="comment">// 八进制</span></span><br><span class="line">num = <span class="number">0x7b</span>; <span class="comment">// 16进制</span></span><br></pre></td></tr></table></figure><h3 id="字符串">字符串</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> str: <span class="built_in">string</span> = <span class="string">&#x27;abc&#x27;</span>;</span><br><span class="line">str = <span class="string">`abs`</span>;</span><br><span class="line">str = <span class="string">`ab<span class="subst">$&#123;num&#125;</span>`</span>;</span><br></pre></td></tr></table></figure><h3 id="数组">数组</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> arr: <span class="built_in">number</span>[] = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">let</span> arr1: <span class="built_in">Array</span>&lt;<span class="built_in">number</span>&gt; = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br></pre></td></tr></table></figure><h3 id="元组">元组</h3><ol><li>元组必须一一对应</li></ol><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> tuple: [<span class="built_in">string</span>, <span class="built_in">number</span>, <span class="built_in">boolean</span>] = [<span class="string">&#x27;abc&#x27;</span>, <span class="number">123</span>, <span class="literal">false</span>];</span><br></pre></td></tr></table></figure><h3 id="枚举值">枚举值</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">enum</span> Roles &#123;</span><br><span class="line">    SUPER_ADMIN,</span><br><span class="line">    ADMIN,</span><br><span class="line">    USER</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(Roles.USER); <span class="comment">// 2</span></span><br><span class="line"><span class="built_in">console</span>.log(Roles.ADMIN); <span class="comment">// 1</span></span><br><span class="line"><span class="built_in">console</span>.log(Roles.SUPER_ADMIN); <span class="comment">// 0</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">enum</span> Roles1 &#123;</span><br><span class="line">    SUPER_ADMIN = <span class="number">1</span>, <span class="comment">// 1</span></span><br><span class="line">    ADMIN, <span class="comment">// 2</span></span><br><span class="line">    USER <span class="comment">// 3</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">enum</span> Roles2 &#123;</span><br><span class="line">    SUPER_ADMIN, <span class="comment">// 0</span></span><br><span class="line">    ADMIN = <span class="number">3</span>, <span class="comment">// 3</span></span><br><span class="line">    USER <span class="comment">// 4</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习&amp;教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> typescript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用TensorFlow.js进行人脸动作检测</title>
       <link href="ff44d7d9/"/>
       <url>ff44d7d9/</url>
       
         <content type="html"><![CDATA[<p>我就随便写写</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习&amp;教程 </category>
+          
+      </categories>
       
       
         <tags>
