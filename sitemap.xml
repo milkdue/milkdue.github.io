@@ -354,6 +354,13 @@
   </url>
   
   <url>
+    <loc>https://blog.keyiqingxin.cn/tags/typescript/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.keyiqingxin.cn/tags/vercel/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
@@ -362,13 +369,6 @@
   
   <url>
     <loc>https://blog.keyiqingxin.cn/tags/node/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keyiqingxin.cn/tags/typescript/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
