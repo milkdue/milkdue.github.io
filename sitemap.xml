@@ -375,20 +375,6 @@
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/tensorflow/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keyiqingxin.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-07-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.keyiqingxin.cn/tags/html/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
@@ -403,7 +389,14 @@
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
+    <loc>https://blog.keyiqingxin.cn/tags/tensorflow/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keyiqingxin.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -417,7 +410,7 @@
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/npm/</loc>
+    <loc>https://blog.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -425,6 +418,13 @@
   
   <url>
     <loc>https://blog.keyiqingxin.cn/tags/vue2/</loc>
+    <lastmod>2023-07-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keyiqingxin.cn/tags/npm/</loc>
     <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
