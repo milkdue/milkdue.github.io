@@ -361,13 +361,6 @@
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/typescript/</loc>
-    <lastmod>2023-08-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.keyiqingxin.cn/tags/vercel/</loc>
     <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
@@ -410,14 +403,14 @@
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/c/</loc>
+    <loc>https://blog.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
     <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.keyiqingxin.cn/tags/%E5%8D%95%E8%AF%8D/</loc>
+    <loc>https://blog.keyiqingxin.cn/tags/typescript/</loc>
     <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -432,6 +425,13 @@
   
   <url>
     <loc>https://blog.keyiqingxin.cn/tags/vue2/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keyiqingxin.cn/tags/c/</loc>
     <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
