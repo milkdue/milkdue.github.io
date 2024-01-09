@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>前端seo优化</title>
+      <link href="b93230bc/"/>
+      <url>b93230bc/</url>
+      
+        <content type="html"><![CDATA[<div class="tip cogs"><p>SEO 即搜索引擎优化，比较重要的地方，网页 title 标题，description 网站说明以及 keywords 关键字。良好的 seo 利于搜索引擎更快识别页面内容，对页面进行收录，对于网站运营者来说，可以提升点击和分发的效率，提升网站排名流量，进而带来转化。</p></div><h2 id="title-标签">title 标签</h2><ol><li>强调重点，重要关键字不要超过两次，并且要靠前</li><li>每个页面的 <code>title</code> 应该有所不同</li><li>简洁、准确突出品牌</li><li>权重最大</li></ol><h2 id="description-标签">description 标签</h2><ol><li>网页的摘要内容</li><li>填写与页面最相关的最重要的内容</li><li>每个网页都应有描述</li><li>权重次之</li></ol><h2 id="keyword-标签">keyword 标签</h2><ol><li>权重最小的标签</li><li>已不是搜索引擎排名的重要因素</li><li>仍然可以列举与页面内容相关的几个重要关键词</li></ol><h2 id="其他优化">其他优化</h2><ol><li>使用语义化标签，符合 <code>w3c</code> 规范，让搜索引擎更容易理解页面的结构和内容</li><li>重要的内容写在前面，搜索引擎是从上到小抓取，且长度有限制，将重要的内容放在前面，搜索引擎可以更准确的抓取</li><li>重要的内容不用 <code>js</code> 输出，爬虫不会执行 <code>JavaScript</code> 所以重要的内容不应该依赖 <code>js</code> 动态输出，而应该使用 <code>html</code> 静态输出</li><li>少用 <code>iframe</code>，搜索引擎通常不会抓取 <code>iframe</code> 中的内容，所以需要减少 <code>iframe</code> 标签的使用，重要内容不用 <code>iframe</code></li><li>非装饰性的图片必须加 <code>alt</code>，为非装饰性的图片添加 <code>alt</code> 属性，可以为搜索引擎提供关于图片内容的描述，有助于可访问性</li><li>提高网站速度，网站速度也是搜索引擎排序的一个重要指标</li></ol><h2 id="栗子">栗子</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;京东JD.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,京东&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习&amp;教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> seo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2023年终</title>
       <link href="7e6f92b3/"/>
       <url>7e6f92b3/</url>
@@ -359,9 +384,9 @@
       
         <tags>
             
-            <tag> vercel </tag>
-            
             <tag> node </tag>
+            
+            <tag> vercel </tag>
             
             <tag> 爬虫 </tag>
             
@@ -669,9 +694,9 @@
       
         <tags>
             
-            <tag> vercel </tag>
-            
             <tag> node </tag>
+            
+            <tag> vercel </tag>
             
         </tags>
       
@@ -723,9 +748,9 @@
       
         <tags>
             
-            <tag> node </tag>
-            
             <tag> npm </tag>
+            
+            <tag> node </tag>
             
         </tags>
       
